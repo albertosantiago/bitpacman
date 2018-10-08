@@ -1,0 +1,11 @@
+
+server 'bitpacman.com', user: 'deploy', roles: %w{app db web}
+
+set :app_env, 'production'
+set :app_debug, false
+set :app_key, 'xxx'
+set :db_host, 'xxx'
+set :db_database, 'xxx'
+set :db_user, 'xxx'
+set :db_password, 'xxx'
+set :cookie_domain, 'xxx'

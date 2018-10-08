@@ -1,0 +1,141 @@
+@import "bootstrap/bootstrap";
+
+@font-face {
+font-family: 'BDCartoonShoutRegular';
+  src: url('BD_Cartoon_Shout-webfont.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+.navbar-brand{
+  font-family: BDCartoonShoutRegular;
+}
+
+#pacman {
+  width:100%;
+}
+
+#shim {
+  font-family: BDCartoonShoutRegular;
+  position:absolute;
+  visibility:hidden
+}
+h1 { font-family: BDCartoonShoutRegular; text-align:center; }
+a { text-decoration:none; }
+
+.navbar-default{
+    border-top:0px;
+}
+
+.footer {
+    bottom: 0;
+    position: relative;
+    width: 95%;
+}
+
+body{
+    color:#ccc;
+}
+
+.navbar-nav > li > a{
+    color:#ccc;
+}
+
+#adcopy-response-cell input{
+  color:#000;
+}
+
+#adcopy-expanded-response{
+  color:#000;
+}
+
+#getRewardTitle{
+    font-family: BDCartoonShoutRegular;
+    text-align:center;
+    font-size:3em;
+}
+
+//Iframe de publicidad superior.
+.ads-top{
+    width:100%;
+    height:90px;
+    border:none;
+}
+
+.ads-lateral-banner{
+    width:260px;
+    height:650px;
+    border:none;
+}
+
+.ads-bottom{
+    width:100%;
+    height:250px;
+    border:none;
+    display: none;
+}
+
+.game-button{
+    position:relative;
+    right:0px;
+    top:-40px;
+    font-size:1em;
+    font-family:BDCartoonShoutRegular;
+    color:#ffff00;
+    background-color:#000;
+    border:1px solid #ffff00;
+}
+
+.game-button:hover{
+    font-size:1em;
+    font-family:BDCartoonShoutRegular;
+    color:#000;
+    background-color:#ffff00;
+    border:1px solid #000;
+}
+
+@media screen and ( max-width: 500px ){
+      h1, h2{
+          font-size:1.8em;
+      }
+      #getRewardTitle{
+          font-family: BDCartoonShoutRegular;
+          text-align:center;
+          font-size:1.8em;
+      }
+      .ads-top{
+          display:none;
+      }
+      .ads-bottom{
+          display: block;
+      }
+      .ads-lateral-banner{
+          display:none;
+      }
+
+      .btn.game-button{
+          position:static;
+          display:block;
+          color:#000;
+          background-color:#ffff00;
+          border:1px solid #000;
+          margin-top:10px;
+          margin-right:20px;
+          font-size:0.8em;
+      }
+
+      #pacman-cancel-button{
+          font-size:0.8em;
+          font-family:BDCartoonShoutRegular;
+          color:#000;
+          margin-top:10px;
+          margin-left:20px;
+      }
+
+      #mute-toolbar{
+          text-align:center;
+          display: block;
+          margin: 0 auto;
+      }
+
+}

@@ -1,0 +1,12 @@
+{
+    "name": "chapusoft/xwhois",
+    "authors": [
+        {
+            "name": "asantiago",
+            "email": "ambertonotaez@gmail.com"
+        }
+    ],
+    "require": {
+        "phpwhois/phpwhois": "~4.0"
+    }
+}

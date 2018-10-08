@@ -1,0 +1,35 @@
+- Poner swap de nuevo
+- Refactorizar el codigo para poder reutilizarlo mejor
+- Poner más divisas
+- Poner pagos totales realizados en la historia del faucet.
+
+Hechas
+- Poner variable de ajax-key para joder un poco la vida a los lammers.
+- Hacer comprobacion de tiempos minimos para obtener recompensas.
+- Instalar solveMedia
+- Poner aceptacion cookies
+- Poner shatoshis en lugar de score.
+- Hacer seccion de pagos para verificar.
+- Hacer seccion de estadisticas.
+- Hacer anti adblock
+- Revisar success, poner trazas de log
+- Optimizar SEO.
+- Caja de 300 shatohis ahora!
+- Arreglar reddireccion javascript al terminar (Cambia de idioma)
+- Poner ruso y rumano
+- Mirar lo del triangulo del theme que se pierde cuando no hay debug
+- Poner caja de premios hoy, basado en configuracion de euros/dollasr maximo por dia
+- Poner contacto
+- Quitar lo de los idiomas en el admin
+- anuncios
+- Poner google analytics
+- Hacer referral program
+- Hacer ADSManager
+- Incluir transferencias de referencias en la bbdd
+- Hacer version mobile
+- Mirar porque no funciona el validador html5 de email.
+- Poner el captcha en negro cuando sale desplegado.
+- Validar que es un email desde el servidor.
+- Mirar en chrome el tamaño de las columnas.
+- Mirar lo de los literales de la version mobile.
+- Mirar lo de las rutas de las plantillas hardcode.

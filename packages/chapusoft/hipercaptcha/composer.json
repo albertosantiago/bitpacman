@@ -1,0 +1,10 @@
+{
+    "name": "chapusoft/hipercaptcha",
+    "authors": [
+        {
+            "name": "asantiago",
+            "email": "ambertonotaez@gmail.com"
+        }
+    ],
+    "require": {}
+}
