@@ -4,9 +4,9 @@ Faucet with pacman game in js where you get shatoshis every time you eat a dot o
 
 ## Features
 
-⋅⋅* Protection against network bots, banning network segments and full networks give a network ID. It connects to Hurricane Electronic to check all segments of a network.
+- Protection against network bots, banning network segments and full networks give a network ID. It connects to Hurricane Electronic to check all segments of a network.
 
-..* Open to another apis which implements micropayments.
+- Open to another apis which implements micropayments.
 
 ## Installation
 
